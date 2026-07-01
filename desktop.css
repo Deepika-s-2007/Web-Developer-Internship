@@ -1,0 +1,26 @@
+body{
+font-family:Arial;
+margin:0;
+}
+
+header,footer{
+border:2px solid black;
+padding:20px;
+text-align:center;
+}
+
+main{
+display:flex;
+}
+
+section{
+flex:3;
+border:2px solid black;
+padding:50px;
+}
+
+aside{
+flex:1;
+border:2px solid black;
+padding:50px;
+}

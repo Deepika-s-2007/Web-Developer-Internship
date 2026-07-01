@@ -1,0 +1,14 @@
+body{
+font-family:Arial;
+text-align:center;
+}
+
+.item{
+border:2px solid black;
+padding:20px;
+margin:20px;
+}
+
+button{
+padding:10px 20px;
+}
