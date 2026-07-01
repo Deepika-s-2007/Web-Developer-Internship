@@ -1,0 +1,10 @@
+body{
+font-family:Arial;
+text-align:center;
+}
+
+.news{
+border:2px solid black;
+padding:20px;
+margin:20px;
+}
