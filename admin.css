@@ -1,0 +1,15 @@
+body{
+font-family:Arial;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+border:1px solid black;
+padding:15px;
+margin:10px;
+width:200px;
+}

@@ -1,0 +1,18 @@
+body{
+font-family:Arial;
+display:flex;
+gap:20px;
+}
+
+.box{
+border:2px solid black;
+padding:40px;
+flex:1;
+text-align:center;
+}
+
+@media(max-width:600px){
+body{
+flex-direction:column;
+}
+}
