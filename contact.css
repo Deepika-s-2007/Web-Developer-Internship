@@ -1,0 +1,20 @@
+body{
+font-family:Arial;
+text-align:center;
+}
+
+input,textarea{
+width:300px;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+}
+
+@media(max-width:600px){
+input,textarea{
+width:90%;
+}
+}
