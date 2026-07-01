@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background-color: green;
+    color: white
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+button{
+    padding:10px 20px;
+    margin-top:20px;
+}
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav{
+        margin-top:10px;
+    }
+
+    .hero{
+        padding:50px 10px;
+    }
+}

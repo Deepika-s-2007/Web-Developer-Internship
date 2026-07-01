@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+
+.hero{
+
+    height:400px;
+    text-align:center;
+    padding-top:100px;
+    background-color:lightblue;
+
+}
+
+
+h1{
+    font-size:40px;
+}
+
+
+button{
+
+    padding:12px 25px;
+    border:none;
+    cursor:pointer;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    h1{
+        font-size:28px;
+    }
+
+
+    .hero{
+        padding:60px 20px;
+    }
+
+}

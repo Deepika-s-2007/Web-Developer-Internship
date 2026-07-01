@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border:2px solid black;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+li{
+    margin:10px;
+}
+
+a{
+    text-decoration:none;
+}

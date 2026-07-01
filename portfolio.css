@@ -1,0 +1,48 @@
+body{
+
+    margin:0;
+    font-family:Arial;
+
+}
+
+
+.portfolio{
+
+    text-align:center;
+    padding:50px 20px;
+
+}
+
+
+.gallery{
+
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    gap:20px;
+    justify-content:center;
+
+}
+
+
+.project{
+
+    height:150px;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:600px){
+
+    .gallery{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

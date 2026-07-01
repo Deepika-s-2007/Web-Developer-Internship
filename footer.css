@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+.content{
+    height:400px;
+    text-align:center;
+}
+
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+    footer{
+        padding:15px;
+        font-size:14px;
+    }
+
+}
