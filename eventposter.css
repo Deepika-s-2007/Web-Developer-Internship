@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#eef2f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.poster{
+    width:100%;
+    max-width:500px;
+    background:linear-gradient(135deg,#7c3aed,#2563eb);
+    color:white;
+    text-align:center;
+    padding:40px 30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.poster h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.poster h2{
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.date,
+.venue{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.description{
+    margin:25px 0;
+    line-height:1.7;
+    font-size:17px;
+}
+
+button{
+    padding:12px 28px;
+    background:#ffffff;
+    color:#2563eb;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#f3f4f6;
+}
+
+@media(max-width:768px){
+
+    .poster{
+        padding:30px 20px;
+    }
+
+    .poster h1{
+        font-size:30px;
+    }
+
+    .poster h2{
+        font-size:20px;
+    }
+
+    .description{
+        font-size:16px;
+    }
+
+}
