@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#e0e5ec;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.neu-card{
+    width:350px;
+    padding:30px;
+    text-align:center;
+    background:#e0e5ec;
+    border-radius:20px;
+    box-shadow:
+        10px 10px 20px #b8bcc2,
+        -10px -10px 20px #ffffff;
+}
+
+.neu-card h1{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.neu-card p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.neu-card button{
+    padding:12px 24px;
+    border:none;
+    border-radius:10px;
+    background:#e0e5ec;
+    cursor:pointer;
+    font-size:16px;
+    box-shadow:
+        5px 5px 10px #b8bcc2,
+        -5px -5px 10px #ffffff;
+    transition:0.3s;
+}
+
+.neu-card button:hover{
+    box-shadow:
+        inset 5px 5px 10px #b8bcc2,
+        inset -5px -5px 10px #ffffff;
+}
+
+@media(max-width:768px){
+
+    .neu-card{
+        width:90%;
+        padding:20px;
+    }
+
+}

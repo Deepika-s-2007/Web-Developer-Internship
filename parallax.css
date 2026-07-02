@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Parallax Sections */
+.parallax{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:50px;
+    font-weight:bold;
+    text-shadow:2px 2px 10px rgba(0,0,0,0.6);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/* Background Images */
+.one{
+    background-image:url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+}
+
+.two{
+    background-image:url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+}
+
+/* Content Section */
+.content{
+    padding:80px 20px;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+.content h2{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.content p{
+    color:#555;
+    font-size:18px;
+    max-width:600px;
+    margin:auto;
+}

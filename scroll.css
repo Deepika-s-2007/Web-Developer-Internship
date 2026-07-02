@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+/* Header */
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#2563eb;
+    color:white;
+    font-size:28px;
+}
+
+/* Sections */
+.section{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+}
+
+/* Different Colors */
+.one{
+    background:#111827;
+}
+
+.two{
+    background:#16a34a;
+}
+
+.three{
+    background:#f97316;
+}
+
+.four{
+    background:#dc2626;
+}
